@@ -61,7 +61,7 @@ services:
 ##   Uncomment the port mapping if you want to expose the CouchDB service,
 ##   for example to utilize Fauxton User Interface in dev environments.
     ports:
-      - "5984:5984"
+      - 5984:5984
       
   peer0:
     container_name: peer0
@@ -106,7 +106,7 @@ services:
 ##   Uncomment the port mapping if you want to expose the CouchDB service,
 ##   for example to utilize Fauxton User Interface in dev environments.
     ports:
-      - "6984:5984"
+      - 6984:5984
 
   peer1:
     container_name: peer1
@@ -152,7 +152,7 @@ services:
 ##   Uncomment the port mapping if you want to expose the CouchDB service,
 ##   for example to utilize Fauxton User Interface in dev environments.
     ports:
-      - "7984:5984"
+      - 7984:5984
 
   peer2:
     container_name: peer2
@@ -198,7 +198,7 @@ services:
 ##   Uncomment the port mapping if you want to expose the CouchDB service,
 ##   for example to utilize Fauxton User Interface in dev environments.
     ports:
-      - "8984:5984"
+      - 8984:5984
 
   peer3:
     container_name: peer3
