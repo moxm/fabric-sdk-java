@@ -260,7 +260,7 @@ services:
       # - CORE_PEER_TLS_SERVERHOSTOVERRIDE=peer0
       - CORE_PEER_MSPCONFIGPATH=/etc/hyperledger/msp/peer/
 
-    working_dir: /opt/gopath/src/github.com/hyperledger/fabric
+    working_dir: /opt/gopath/src/github.com/hyperledger/fabric/peer
     command: /bin/bash -c './scripts/script.sh ${CHANNEL_NAME}; sleep 10000'
     # command: /bin/bash -c 'sleep 10000'
     volumes:
