@@ -261,8 +261,8 @@ services:
       - CORE_PEER_MSPCONFIGPATH=/etc/hyperledger/msp/peer/
 
     working_dir: /opt/gopath/src/github.com/hyperledger/fabric
-    # command: /bin/bash -c './scripts/script.sh ${CHANNEL_NAME}; '
-    command: /bin/bash -c 'sleep 10000'
+    command: /bin/bash -c './scripts/script.sh ${CHANNEL_NAME}; sleep 10000'
+    # command: /bin/bash -c 'sleep 10000'
     volumes:
         - /var/run/:/host/var/run/
         - /opt/gopath/src/github.com/hyperledger/fabric/examples/:/opt/gopath/src/github.com/hyperledger/fabric/examples/
