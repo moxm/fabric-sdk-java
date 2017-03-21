@@ -258,7 +258,7 @@ services:
       - CORE_PEER_TLS_CERT_FILE=/etc/hyperledger/tls/cert.pem
       - CORE_PEER_TLS_ROOTCERT_FILE=/etc/hyperledger/tls/ca-cert.pem
       # - CORE_PEER_TLS_SERVERHOSTOVERRIDE=peer0
-      - CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peer/peer0/localMspConfig
+      - CORE_PEER_MSPCONFIGPATH=/etc/hyperledger/msp/peer/
 
     working_dir: /opt/gopath/src/github.com/hyperledger/fabric
     # command: /bin/bash -c './scripts/script.sh ${CHANNEL_NAME}; '
